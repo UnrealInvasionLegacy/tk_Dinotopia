@@ -1,0 +1,36 @@
+Class M_Carcha extends Dinosaur;
+
+defaultproperties
+{
+     FemaleSkin=FinalBlend'tk_Dinotopia.Carcha_Skins.Carcha_Female_FB'
+     MaleSkin=FinalBlend'tk_Dinotopia.Carcha_Skins.Carcha_Male_FB'
+     FemaleZombieSkin=FinalBlend'tk_Dinotopia.Carcha_Skins.Carcha_Female_Zombie_FB'
+     MaleZombieSkin=FinalBlend'tk_Dinotopia.Carcha_Skins.Carcha_Male_Zombie_FB'
+     RoarSounds(0)=Sound'tk_Dinotopia.Carcha_Sounds.CarchROAR01'
+     RoarSounds(1)=Sound'tk_Dinotopia.Carcha_Sounds.CarchROAR02'
+     CallSounds(0)=Sound'tk_Dinotopia.Carcha_Sounds.CarchROAR01'
+     CallSounds(1)=Sound'tk_Dinotopia.Carcha_Sounds.CarchROAR02'
+     MeleeAttackSounds(0)=Sound'tk_Dinotopia.Acro_Sounds.Acrogrowl01'
+     MeleeAttackSounds(1)=Sound'tk_Dinotopia.Acro_Sounds.Acrogrowl02'
+     FootStepSounds(0)=Sound'tk_Dinotopia.Generic_Sounds.LCarnstep01'
+     FootStepSounds(1)=Sound'tk_Dinotopia.Generic_Sounds.LCarnstep02'
+     MeleeDamage=90
+     HP=1000
+     bOverlayFix=True
+     bHerbivore=False
+     GroundShakeStrength=2.200000
+     HitSound(0)=Sound'tk_Dinotopia.Acro_Sounds.Acrogrowl01'
+     HitSound(1)=Sound'tk_Dinotopia.Acro_Sounds.Acrogrowl02'
+     HitSound(2)=Sound'tk_Dinotopia.Acro_Sounds.Acrogrowl01'
+     HitSound(3)=Sound'tk_Dinotopia.Acro_Sounds.Acrogrowl02'
+     ChallengeSound(0)=Sound'tk_Dinotopia.Carcha_Sounds.CarchROAR01'
+     ChallengeSound(1)=Sound'tk_Dinotopia.Carcha_Sounds.CarchHiss01'
+     ChallengeSound(2)=Sound'tk_Dinotopia.Generic_Sounds.CarnGrowl01'
+     ChallengeSound(3)=Sound'tk_Dinotopia.Carcha_Sounds.CarchHiss02'
+     MeleeRange=220.000000
+     GroundSpeed=650.000000
+     Mesh=SkeletalMesh'tk_Dinotopia.Carcha_Mesh'
+     PrePivot=(Z=25.000000)
+     Skins(0)=FinalBlend'tk_Dinotopia.Carcha_Skins.Carcha_Female_FB'
+     Mass=1000.000000
+}

@@ -1,0 +1,31 @@
+Class M_Toro extends Dinosaur;
+
+defaultproperties
+{
+     MeleeAnims(1)="Melee01"
+     FemaleSkin=FinalBlend'tk_Dinotopia.Toro_Skins.Toro_Female_FB'
+     MaleSkin=FinalBlend'tk_Dinotopia.Toro_Skins.Toro_Male_FB'
+     FemaleZombieSkin=FinalBlend'tk_Dinotopia.Toro_Skins.Toro_Female_Zombie_FB'
+     MaleZombieSkin=FinalBlend'tk_Dinotopia.Toro_Skins.Toro_Male_Zombie_FB'
+     RoarSounds(0)=Sound'tk_Dinotopia.Toro_Sounds.ToroRoar01'
+     RoarSounds(1)=Sound'tk_Dinotopia.Toro_Sounds.ToroRoar01'
+     CallSounds(0)=Sound'tk_Dinotopia.Toro_Sounds.ToroCall01'
+     CallSounds(1)=Sound'tk_Dinotopia.Toro_Sounds.ToroCall02'
+     MeleeAttackSounds(0)=Sound'tk_Dinotopia.Generic_Sounds.Herbchew03'
+     MeleeAttackSounds(1)=Sound'tk_Dinotopia.Generic_Sounds.Herbchew02'
+     FootStepSounds(0)=Sound'tk_Dinotopia.Generic_Sounds.Medstep04'
+     FootStepSounds(1)=Sound'tk_Dinotopia.Generic_Sounds.Medstep05'
+     MeleeDamage=70
+     HP=400
+     bOverlayFix=True
+     ChallengeSound(0)=Sound'tk_Dinotopia.Toro_Sounds.ToroCall01'
+     ChallengeSound(1)=Sound'tk_Dinotopia.Toro_Sounds.ToroCall02'
+     ChallengeSound(2)=Sound'tk_Dinotopia.Toro_Sounds.ToroCall03'
+     ChallengeSound(3)=Sound'tk_Dinotopia.Toro_Sounds.ToroCall04'
+     MeleeRange=180.000000
+     GroundSpeed=600.000000
+     Mesh=SkeletalMesh'tk_Dinotopia.Toro_Mesh'
+     PrePivot=(Z=-28.000000)
+     Skins(0)=FinalBlend'tk_Dinotopia.Toro_Skins.Toro_Female_FB'
+     Mass=800.000000
+}

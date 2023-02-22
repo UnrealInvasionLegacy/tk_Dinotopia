@@ -1,0 +1,30 @@
+Class M_Parasaur extends Dinosaur;
+
+defaultproperties
+{
+     MeleeAnims(1)="Melee01"
+     FemaleSkin=Texture'tk_Dinotopia.Parasaur_Skins.Parasaur_Female'
+     MaleSkin=Texture'tk_Dinotopia.Parasaur_Skins.Parasaur_Male'
+     FemaleZombieSkin=Texture'tk_Dinotopia.Parasaur_Skins.Parasaur_Female_Zombie'
+     MaleZombieSkin=Texture'tk_Dinotopia.Parasaur_Skins.Parasaur_Male_Zombie'
+     RoarSounds(0)=Sound'tk_Dinotopia.Para_Sounds.ParaCall01'
+     RoarSounds(1)=Sound'tk_Dinotopia.Para_Sounds.ParaCall01'
+     CallSounds(0)=Sound'tk_Dinotopia.Para_Sounds.ParaCall01'
+     CallSounds(1)=Sound'tk_Dinotopia.Para_Sounds.ParaCall02'
+     MeleeAttackSounds(0)=Sound'tk_Dinotopia.Generic_Sounds.Herbchew03'
+     MeleeAttackSounds(1)=Sound'tk_Dinotopia.Generic_Sounds.Herbchew02'
+     FootStepSounds(0)=Sound'tk_Dinotopia.Generic_Sounds.Medstep04'
+     FootStepSounds(1)=Sound'tk_Dinotopia.Generic_Sounds.Medstep05'
+     MeleeDamage=55
+     HP=500
+     ChallengeSound(0)=Sound'tk_Dinotopia.Para_Sounds.ParaCall01'
+     ChallengeSound(1)=Sound'tk_Dinotopia.Para_Sounds.ParaCall02'
+     ChallengeSound(2)=Sound'tk_Dinotopia.Para_Sounds.ParaCall01'
+     ChallengeSound(3)=Sound'tk_Dinotopia.Para_Sounds.ParaCall02'
+     MeleeRange=200.000000
+     GroundSpeed=620.000000
+     Mesh=SkeletalMesh'tk_Dinotopia.Parasaur_Mesh'
+     PrePivot=(Z=0.000000)
+     Skins(0)=Texture'tk_Dinotopia.Parasaur_Skins.Parasaur_Female'
+     Mass=700.000000
+}

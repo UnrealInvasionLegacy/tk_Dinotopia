@@ -1,0 +1,45 @@
+class M_Brach extends Dinosaur;
+
+defaultproperties
+{
+     MeleeAnims(1)="Melee01"
+     TailAttackBoneName="'"
+     FemaleSkin=Texture'tk_Dinotopia.Brach_Skins.Brach_Female'
+     MaleSkin=Texture'tk_Dinotopia.Brach_Skins.Brach_Male'
+     FemaleZombieSkin=Texture'tk_Dinotopia.Brach_Skins.Brach_Female_Zombie'
+     MaleZombieSkin=Texture'tk_Dinotopia.Brach_Skins.Brach_Male_Zombie'
+     RoarSounds(0)=Sound'tk_Dinotopia.Brach_Sounds.BrachCall01'
+     RoarSounds(1)=Sound'tk_Dinotopia.Brach_Sounds.BrachCall02'
+     CallSounds(0)=Sound'tk_Dinotopia.Brach_Sounds.BrachCall01'
+     CallSounds(1)=Sound'tk_Dinotopia.Brach_Sounds.BrachCall02'
+     MeleeAttackSounds(0)=Sound'tk_Dinotopia.Brach_Sounds.BrachRes01'
+     MeleeAttackSounds(1)=Sound'tk_Dinotopia.Brach_Sounds.BrachRes02'
+     FootStepSounds(0)=Sound'tk_Dinotopia.Generic_Sounds.Brachstomp'
+     FootStepSounds(1)=Sound'tk_Dinotopia.Generic_Sounds.Brachstomp'
+     TailBoneRadius=400
+     StompDamage=75
+     TailDamage=700
+     HP=2000
+     bHasTailAttack=True
+     CallIntervalTime=45.000000
+     RoarIntervalTime=30.000000
+     GroundShakeStrength=1.900000
+     GroundShakeRadius=650.000000
+     HitSound(0)=Sound'tk_Dinotopia.Generic_Sounds.GenLgrowl04'
+     HitSound(1)=Sound'tk_Dinotopia.Generic_Sounds.GenLgrowl04'
+     HitSound(2)=Sound'tk_Dinotopia.Generic_Sounds.GenLgrowl04'
+     HitSound(3)=Sound'tk_Dinotopia.Generic_Sounds.GenLgrowl04'
+     DeathSound(0)=Sound'tk_Dinotopia.Generic_Sounds.Genbored01'
+     DeathSound(2)=Sound'tk_Dinotopia.Brach_Sounds.BrachCall01'
+     DeathSound(3)=Sound'tk_Dinotopia.Brach_Sounds.BrachCall02'
+     ChallengeSound(0)=Sound'tk_Dinotopia.Brach_Sounds.BrachCall01'
+     ChallengeSound(1)=Sound'tk_Dinotopia.Brach_Sounds.BrachCall02'
+     ChallengeSound(2)=Sound'tk_Dinotopia.Brach_Sounds.BrachCall01'
+     ChallengeSound(3)=Sound'tk_Dinotopia.Brach_Sounds.BrachCall02'
+     MeleeRange=300.000000
+     GroundSpeed=180.000000
+     Mesh=SkeletalMesh'tk_Dinotopia.Brach_Mesh'
+     PrePivot=(Z=50.000000)
+     Skins(0)=Texture'tk_Dinotopia.Brach_Skins.Brach_Female'
+     Mass=10000.000000
+}

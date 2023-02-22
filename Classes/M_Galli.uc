@@ -1,0 +1,57 @@
+class M_Galli extends Dinosaur;
+
+defaultproperties
+{
+     MeleeAnims(1)="Melee01"
+     FemaleSkin=Texture'tk_Dinotopia.Galli_Skins.Galli_Female'
+     MaleSkin=Texture'tk_Dinotopia.Galli_Skins.Galli_Male'
+     FemaleZombieSkin=Texture'tk_Dinotopia.Galli_Skins.Galli_Female_Zombie'
+     MaleZombieSkin=Texture'tk_Dinotopia.Galli_Skins.Galli_Male_Zombie'
+     RoarSounds(0)=Sound'tk_Dinotopia.Galli_Sounds.GaliCall01'
+     RoarSounds(1)=Sound'tk_Dinotopia.Galli_Sounds.GaliCall02'
+     CallSounds(0)=Sound'tk_Dinotopia.Galli_Sounds.GaliCall01'
+     CallSounds(1)=Sound'tk_Dinotopia.Galli_Sounds.GaliCall02'
+     MeleeAttackSounds(0)=Sound'tk_Dinotopia.Generic_Sounds.Scratch02'
+     MeleeAttackSounds(1)=Sound'tk_Dinotopia.Generic_Sounds.Scratch03'
+     FootStepSounds(0)=Sound'tk_Dinotopia.Generic_Sounds.Smallstep01'
+     FootStepSounds(1)=Sound'tk_Dinotopia.Generic_Sounds.Smallstep02'
+     MeleeDamage=45
+     HP=300
+     CallIntervalTime=15.000000
+     RoarIntervalTime=30.000000
+     DodgeSkillAdjust=3.000000
+     HitSound(0)=Sound'tk_Dinotopia.Galli_Sounds.GaliPain01'
+     HitSound(1)=Sound'tk_Dinotopia.Galli_Sounds.GaliPain01'
+     HitSound(2)=Sound'tk_Dinotopia.Galli_Sounds.GaliPain01'
+     HitSound(3)=Sound'tk_Dinotopia.Galli_Sounds.GaliPain01'
+     DeathSound(0)=Sound'tk_Dinotopia.Generic_Sounds.Gen_Smldie01'
+     DeathSound(1)=Sound'tk_Dinotopia.Generic_Sounds.Gen_Smldie02'
+     DeathSound(2)=Sound'tk_Dinotopia.Generic_Sounds.Gen_Smldie01'
+     DeathSound(3)=Sound'tk_Dinotopia.Generic_Sounds.Gen_Smldie02'
+     ChallengeSound(0)=Sound'tk_Dinotopia.Galli_Sounds.GaliCall01'
+     ChallengeSound(1)=Sound'tk_Dinotopia.Galli_Sounds.GaliCall02'
+     ChallengeSound(2)=Sound'tk_Dinotopia.Galli_Sounds.GaliCall01'
+     ChallengeSound(3)=Sound'tk_Dinotopia.Galli_Sounds.GaliCall02'
+     bCanStrafe=True
+     bCanDoubleJump=True
+     MeleeRange=60.000000
+     GroundSpeed=900.000000
+     JumpZ=650.000000
+     TakeoffAnims(0)="Jump_Start"
+     TakeoffAnims(1)="Jump_Start"
+     TakeoffAnims(2)="Jump_Start"
+     TakeoffAnims(3)="Jump_Start"
+     LandAnims(0)="Jump_Land"
+     LandAnims(1)="Jump_Land"
+     LandAnims(2)="Jump_Land"
+     LandAnims(3)="Jump_Land"
+     DoubleJumpAnims(0)="Jump_Full"
+     DoubleJumpAnims(1)="Jump_Full"
+     DoubleJumpAnims(2)="Jump_Full"
+     DoubleJumpAnims(3)="Jump_Full"
+     TakeoffStillAnim="Jump_Start"
+     Mesh=SkeletalMesh'tk_Dinotopia.Galli_Mesh'
+     PrePivot=(Z=-56.000000)
+     Skins(0)=Texture'tk_Dinotopia.Galli_Skins.Galli_Female'
+     Mass=200.000000
+}

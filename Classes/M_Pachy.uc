@@ -1,0 +1,35 @@
+Class M_Pachy extends Dinosaur;
+
+defaultproperties
+{
+     ChargeAnim="Charge"
+     FemaleSkin=Texture'tk_Dinotopia.Pachy_Skins.Pachy_Female'
+     MaleSkin=Texture'tk_Dinotopia.Pachy_Skins.Pachy_Male'
+     FemaleZombieSkin=Texture'tk_Dinotopia.Pachy_Skins.Pachy_Female_Zombie'
+     MaleZombieSkin=Texture'tk_Dinotopia.Pachy_Skins.Pachy_Male_Zombie'
+     RoarSounds(0)=Sound'tk_Dinotopia.Pachy_Sounds.PachyChlng01'
+     RoarSounds(1)=Sound'tk_Dinotopia.Pachy_Sounds.PachyChlng02'
+     CallSounds(0)=Sound'tk_Dinotopia.Pachy_Sounds.PachyCall01'
+     CallSounds(1)=Sound'tk_Dinotopia.Pachy_Sounds.PachyCall02'
+     MeleeAttackSounds(0)=Sound'tk_Dinotopia.Generic_Sounds.Herbchew03'
+     MeleeAttackSounds(1)=Sound'tk_Dinotopia.Generic_Sounds.Herbchew02'
+     FootStepSounds(0)=Sound'tk_Dinotopia.Generic_Sounds.Medstep04'
+     FootStepSounds(1)=Sound'tk_Dinotopia.Generic_Sounds.Medstep05'
+     MeleeDamage=35
+     HP=400
+     bCanCharge=True
+     DeathSound(0)=Sound'tk_Dinotopia.Pachy_Sounds.PachyGroan01'
+     DeathSound(1)=Sound'tk_Dinotopia.Pachy_Sounds.PachyGroan01'
+     DeathSound(2)=Sound'tk_Dinotopia.Pachy_Sounds.PachyGroan01'
+     DeathSound(3)=Sound'tk_Dinotopia.Pachy_Sounds.PachyGroan01'
+     ChallengeSound(0)=Sound'tk_Dinotopia.Pachy_Sounds.PachyChlng01'
+     ChallengeSound(1)=Sound'tk_Dinotopia.Pachy_Sounds.PachyChlng02'
+     ChallengeSound(2)=Sound'tk_Dinotopia.Pachy_Sounds.PachyCall01'
+     ChallengeSound(3)=Sound'tk_Dinotopia.Pachy_Sounds.PachyCall02'
+     MeleeRange=70.000000
+     GroundSpeed=500.000000
+     Mesh=SkeletalMesh'tk_Dinotopia.Pachy_Mesh'
+     PrePivot=(Z=-48.000000)
+     Skins(0)=Texture'tk_Dinotopia.Pachy_Skins.Pachy_Female'
+     Mass=250.000000
+}

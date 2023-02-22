@@ -1,0 +1,35 @@
+class M_Cerato extends Dinosaur;
+
+defaultproperties
+{
+     FemaleSkin=FinalBlend'tk_Dinotopia.Cerato_Skins.Cerato_Female_FB'
+     MaleSkin=FinalBlend'tk_Dinotopia.Cerato_Skins.Cerato_Male_FB'
+     FemaleZombieSkin=FinalBlend'tk_Dinotopia.Cerato_Skins.Cerato_Female_Zombie_FB'
+     MaleZombieSkin=FinalBlend'tk_Dinotopia.Cerato_Skins.Cerato_Male_Zombie_FB'
+     RoarSounds(0)=Sound'tk_Dinotopia.Cerato_Sounds.CeratoRoar01'
+     RoarSounds(1)=Sound'tk_Dinotopia.Cerato_Sounds.CeratoRoar02'
+     CallSounds(0)=Sound'tk_Dinotopia.Cerato_Sounds.CeratoGrowl01'
+     CallSounds(1)=Sound'tk_Dinotopia.Cerato_Sounds.CeratoGrowl02'
+     MeleeAttackSounds(0)=Sound'tk_Dinotopia.Acro_Sounds.Acrogrowl01'
+     MeleeAttackSounds(1)=Sound'tk_Dinotopia.Acro_Sounds.Acrogrowl02'
+     FootStepSounds(0)=Sound'tk_Dinotopia.Generic_Sounds.Medstep03'
+     FootStepSounds(1)=Sound'tk_Dinotopia.Generic_Sounds.Medstep01'
+     MeleeDamage=70
+     HP=300
+     bOverlayFix=True
+     bHerbivore=False
+     HitSound(0)=Sound'tk_Dinotopia.Acro_Sounds.Acrogrowl01'
+     HitSound(1)=Sound'tk_Dinotopia.Acro_Sounds.Acrogrowl02'
+     HitSound(2)=Sound'tk_Dinotopia.Acro_Sounds.Acrogrowl01'
+     HitSound(3)=Sound'tk_Dinotopia.Acro_Sounds.Acrogrowl02'
+     ChallengeSound(0)=Sound'tk_Dinotopia.Cerato_Sounds.CeratoGrowl01'
+     ChallengeSound(1)=Sound'tk_Dinotopia.Cerato_Sounds.CeratoGrowl02'
+     ChallengeSound(2)=Sound'tk_Dinotopia.Cerato_Sounds.CeratoGrowl01'
+     ChallengeSound(3)=Sound'tk_Dinotopia.Cerato_Sounds.CeratoGrowl02'
+     MeleeRange=100.000000
+     GroundSpeed=600.000000
+     Mesh=SkeletalMesh'tk_Dinotopia.Cerato_Mesh'
+     PrePivot=(Z=-15.000000)
+     Skins(0)=FinalBlend'tk_Dinotopia.Cerato_Skins.Cerato_Female_FB'
+     Mass=600.000000
+}

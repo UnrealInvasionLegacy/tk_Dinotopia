@@ -1,0 +1,31 @@
+Class M_Homalo extends Dinosaur;
+
+defaultproperties
+{
+     ChargeAnim="Charge"
+     FemaleSkin=Texture'tk_Dinotopia.Homalo_Skins.Homalo_Female'
+     MaleSkin=Texture'tk_Dinotopia.Homalo_Skins.Homalo_Male'
+     FemaleZombieSkin=Texture'tk_Dinotopia.Homalo_Skins.Homalo_Female_Zombie'
+     MaleZombieSkin=Texture'tk_Dinotopia.Homalo_Skins.Homalo_Male_Zombie'
+     RoarSounds(0)=Sound'tk_Dinotopia.Homalo_Sounds.HomaRes01'
+     RoarSounds(1)=Sound'tk_Dinotopia.Homalo_Sounds.HomaRes01'
+     CallSounds(0)=Sound'tk_Dinotopia.Homalo_Sounds.HomaCall01'
+     CallSounds(1)=Sound'tk_Dinotopia.Homalo_Sounds.HomaCall01'
+     MeleeAttackSounds(0)=Sound'tk_Dinotopia.Generic_Sounds.Herbchew03'
+     MeleeAttackSounds(1)=Sound'tk_Dinotopia.Generic_Sounds.Herbchew02'
+     FootStepSounds(0)=Sound'tk_Dinotopia.Generic_Sounds.Medstep04'
+     FootStepSounds(1)=Sound'tk_Dinotopia.Generic_Sounds.Medstep05'
+     MeleeDamage=25
+     HP=200
+     bCanCharge=True
+     ChallengeSound(0)=Sound'tk_Dinotopia.Homalo_Sounds.HomaChlng01'
+     ChallengeSound(1)=Sound'tk_Dinotopia.Homalo_Sounds.HomaRes01'
+     ChallengeSound(2)=Sound'tk_Dinotopia.Homalo_Sounds.HomaCall01'
+     ChallengeSound(3)=Sound'tk_Dinotopia.Homalo_Sounds.HomaChlng01'
+     MeleeRange=60.000000
+     GroundSpeed=550.000000
+     Mesh=SkeletalMesh'tk_Dinotopia.Homalo_Mesh'
+     PrePivot=(Z=-64.000000)
+     Skins(0)=Texture'tk_Dinotopia.Homalo_Skins.Homalo_Female'
+     Mass=250.000000
+}

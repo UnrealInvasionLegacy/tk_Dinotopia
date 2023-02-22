@@ -1,0 +1,63 @@
+class M_Dilopho extends Dinosaur;
+
+defaultproperties
+{
+     RangedAttackAnims(0)="Spit"
+     RangedAttackAnims(1)="Spit"
+     FemaleSkin=FinalBlend'tk_Dinotopia.Dilopho_Skins.Dilopho_Female_FB'
+     MaleSkin=FinalBlend'tk_Dinotopia.Dilopho_Skins.Dilopho_Male_FB'
+     FemaleZombieSkin=FinalBlend'tk_Dinotopia.Dilopho_Skins.Dilopho_Female_Zombie_FB'
+     MaleZombieSkin=FinalBlend'tk_Dinotopia.Dilopho_Skins.Dilopho_Male_Zombie_FB'
+     RoarSounds(0)=Sound'tk_Dinotopia.Dilopho_Sounds.DiloHiss01'
+     RoarSounds(1)=Sound'tk_Dinotopia.Dilopho_Sounds.DiloCall02'
+     CallSounds(0)=Sound'tk_Dinotopia.Dilopho_Sounds.DiloCall01'
+     CallSounds(1)=Sound'tk_Dinotopia.Dilopho_Sounds.DiloCall02'
+     MeleeAttackSounds(0)=Sound'tk_Dinotopia.Generic_Sounds.Gensnap_small'
+     MeleeAttackSounds(1)=Sound'tk_Dinotopia.Generic_Sounds.Gensnap_small'
+     FootStepSounds(0)=Sound'tk_Dinotopia.Generic_Sounds.Smallstep01'
+     FootStepSounds(1)=Sound'tk_Dinotopia.Generic_Sounds.Smallstep02'
+     MeleeDamage=50
+     HP=250
+     bOverlayFix=True
+     bCanLunge=True
+     bHasRangedAttack=True
+     bHerbivore=False
+     CallIntervalTime=15.000000
+     RangedAttackInterval=4.000000
+     RoarIntervalTime=30.000000
+     DodgeSkillAdjust=2.000000
+     HitSound(0)=Sound'tk_Dinotopia.Dilopho_Sounds.DiloHiss02'
+     HitSound(1)=Sound'tk_Dinotopia.Dilopho_Sounds.DiloHiss02'
+     HitSound(2)=Sound'tk_Dinotopia.Dilopho_Sounds.DiloHiss02'
+     HitSound(3)=Sound'tk_Dinotopia.Dilopho_Sounds.DiloHiss02'
+     DeathSound(0)=Sound'tk_Dinotopia.Generic_Sounds.Gen_Smldie01'
+     DeathSound(1)=Sound'tk_Dinotopia.Generic_Sounds.Gen_Smldie02'
+     DeathSound(2)=Sound'tk_Dinotopia.Generic_Sounds.Gen_Smldie01'
+     DeathSound(3)=Sound'tk_Dinotopia.Generic_Sounds.Gen_Smldie02'
+     ChallengeSound(0)=Sound'tk_Dinotopia.Dilopho_Sounds.DiloHiss01'
+     ChallengeSound(1)=Sound'tk_Dinotopia.Dilopho_Sounds.DiloHiss02'
+     ChallengeSound(2)=Sound'tk_Dinotopia.Dilopho_Sounds.DiloCall01'
+     ChallengeSound(3)=Sound'tk_Dinotopia.Dilopho_Sounds.DiloCall02'
+     FireSound=Sound'tk_Dinotopia.Dilopho_Sounds.DiloHiss02'
+     bCanStrafe=True
+     bCanDoubleJump=True
+     MeleeRange=60.000000
+     GroundSpeed=650.000000
+     JumpZ=550.000000
+     TakeoffAnims(0)="Jump_Start"
+     TakeoffAnims(1)="Jump_Start"
+     TakeoffAnims(2)="Jump_Start"
+     TakeoffAnims(3)="Jump_Start"
+     LandAnims(0)="Jump_Land"
+     LandAnims(1)="Jump_Land"
+     LandAnims(2)="Jump_Land"
+     LandAnims(3)="Jump_Land"
+     DoubleJumpAnims(0)="Jump_Full"
+     DoubleJumpAnims(1)="Jump_Full"
+     DoubleJumpAnims(2)="Jump_Full"
+     DoubleJumpAnims(3)="Jump_Full"
+     TakeoffStillAnim="Jump_Start"
+     Mesh=SkeletalMesh'tk_Dinotopia.Dilopho_Mesh'
+     PrePivot=(Z=-68.000000)
+     Skins(0)=FinalBlend'tk_Dinotopia.Dilopho_Skins.Dilopho_Female_FB'
+}

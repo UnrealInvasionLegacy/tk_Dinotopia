@@ -1,0 +1,45 @@
+class M_Camara extends Dinosaur;
+
+defaultproperties
+{
+     MeleeAnims(1)="Melee01"
+     TailAttackBoneName="'"
+     FemaleSkin=Texture'tk_Dinotopia.Camara_Skins.Camara_Female'
+     MaleSkin=Texture'tk_Dinotopia.Camara_Skins.Camara_Male'
+     FemaleZombieSkin=Texture'tk_Dinotopia.Camara_Skins.Camara_Female_Zombie'
+     MaleZombieSkin=Texture'tk_Dinotopia.Camara_Skins.Camara_Male_Zombie'
+     RoarSounds(0)=Sound'tk_Dinotopia.Camara_Sounds.CamaCall01'
+     RoarSounds(1)=Sound'tk_Dinotopia.Camara_Sounds.CamaCall02'
+     CallSounds(0)=Sound'tk_Dinotopia.Camara_Sounds.CamaCall01'
+     CallSounds(1)=Sound'tk_Dinotopia.Camara_Sounds.CamaCall02'
+     MeleeAttackSounds(0)=Sound'tk_Dinotopia.Brach_Sounds.BrachRes01'
+     MeleeAttackSounds(1)=Sound'tk_Dinotopia.Brach_Sounds.BrachRes02'
+     FootStepSounds(0)=Sound'tk_Dinotopia.Generic_Sounds.Medstep03'
+     FootStepSounds(1)=Sound'tk_Dinotopia.Generic_Sounds.Medstep03'
+     TailBoneRadius=400
+     StompDamage=50
+     TailDamage=500
+     HP=1000
+     bHasTailAttack=True
+     CallIntervalTime=45.000000
+     RoarIntervalTime=30.000000
+     GroundShakeStrength=0.600000
+     GroundShakeRadius=450.000000
+     HitSound(0)=Sound'tk_Dinotopia.Generic_Sounds.GenLgrowl04'
+     HitSound(1)=Sound'tk_Dinotopia.Generic_Sounds.GenLgrowl04'
+     HitSound(2)=Sound'tk_Dinotopia.Generic_Sounds.GenLgrowl04'
+     HitSound(3)=Sound'tk_Dinotopia.Generic_Sounds.GenLgrowl04'
+     DeathSound(0)=Sound'tk_Dinotopia.Camara_Sounds.CamaCall01'
+     DeathSound(2)=Sound'tk_Dinotopia.Camara_Sounds.CamaCall01'
+     DeathSound(3)=Sound'tk_Dinotopia.Camara_Sounds.CamaCall02'
+     ChallengeSound(0)=Sound'tk_Dinotopia.Camara_Sounds.CamaCall01'
+     ChallengeSound(1)=Sound'tk_Dinotopia.Camara_Sounds.CamaCall02'
+     ChallengeSound(2)=Sound'tk_Dinotopia.Camara_Sounds.CamaCall01'
+     ChallengeSound(3)=Sound'tk_Dinotopia.Camara_Sounds.CamaCall02'
+     MeleeRange=300.000000
+     GroundSpeed=180.000000
+     Mesh=SkeletalMesh'tk_Dinotopia.Camara_Mesh'
+     PrePivot=(Z=7.000000)
+     Skins(0)=Texture'tk_Dinotopia.Camara_Skins.Camara_Female'
+     Mass=90000.000000
+}

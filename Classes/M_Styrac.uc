@@ -1,0 +1,31 @@
+Class M_Styrac extends Dinosaur;
+
+defaultproperties
+{
+     MeleeAnims(1)="Melee01"
+     FemaleSkin=FinalBlend'tk_Dinotopia.Styrac_Skins.Styrac_Female_FB'
+     MaleSkin=FinalBlend'tk_Dinotopia.Styrac_Skins.Styrac_Male_FB'
+     FemaleZombieSkin=FinalBlend'tk_Dinotopia.Styrac_Skins.Styrac_Female_Zombie_FB'
+     MaleZombieSkin=FinalBlend'tk_Dinotopia.Styrac_Skins.Styrac_Male_Zombie_FB'
+     RoarSounds(0)=Sound'tk_Dinotopia.Styrac_Sounds.StyRoar01'
+     RoarSounds(1)=Sound'tk_Dinotopia.Styrac_Sounds.StyRoar02'
+     CallSounds(0)=Sound'tk_Dinotopia.Styrac_Sounds.Stycall01'
+     CallSounds(1)=Sound'tk_Dinotopia.Styrac_Sounds.Stycall02'
+     MeleeAttackSounds(0)=Sound'tk_Dinotopia.Generic_Sounds.Herbchew03'
+     MeleeAttackSounds(1)=Sound'tk_Dinotopia.Generic_Sounds.Herbchew02'
+     FootStepSounds(0)=Sound'tk_Dinotopia.Generic_Sounds.Medstep04'
+     FootStepSounds(1)=Sound'tk_Dinotopia.Generic_Sounds.Medstep05'
+     MeleeDamage=50
+     HP=600
+     bOverlayFix=True
+     ChallengeSound(0)=Sound'tk_Dinotopia.Styrac_Sounds.StyRoar01'
+     ChallengeSound(1)=Sound'tk_Dinotopia.Styrac_Sounds.StyRoar02'
+     ChallengeSound(2)=Sound'tk_Dinotopia.Styrac_Sounds.Stycall01'
+     ChallengeSound(3)=Sound'tk_Dinotopia.Styrac_Sounds.Stycall02'
+     MeleeRange=120.000000
+     GroundSpeed=500.000000
+     Mesh=SkeletalMesh'tk_Dinotopia.Styrac_Mesh'
+     PrePivot=(Z=-52.000000)
+     Skins(0)=FinalBlend'tk_Dinotopia.Styrac_Skins.Styrac_Female_FB'
+     Mass=700.000000
+}

@@ -1,0 +1,36 @@
+Class M_Spino extends Dinosaur;
+
+defaultproperties
+{
+     FemaleSkin=FinalBlend'tk_Dinotopia.Spino_Skins.Spino_Female_FB'
+     MaleSkin=FinalBlend'tk_Dinotopia.Spino_Skins.Spino_Male_FB'
+     FemaleZombieSkin=FinalBlend'tk_Dinotopia.Spino_Skins.Spino_Female_Zombie_FB'
+     MaleZombieSkin=FinalBlend'tk_Dinotopia.Spino_Skins.Spino_Male_Zombie_FB'
+     RoarSounds(0)=Sound'tk_Dinotopia.Spino_Sounds.SpinoLongRoar01'
+     RoarSounds(1)=Sound'tk_Dinotopia.Spino_Sounds.SpinoLongRoar01'
+     CallSounds(0)=Sound'tk_Dinotopia.Spino_Sounds.SpinoRoar01'
+     CallSounds(1)=Sound'tk_Dinotopia.Spino_Sounds.SpinoRoar02'
+     MeleeAttackSounds(0)=Sound'tk_Dinotopia.Acro_Sounds.Acrogrowl01'
+     MeleeAttackSounds(1)=Sound'tk_Dinotopia.Acro_Sounds.Acrogrowl02'
+     FootStepSounds(0)=Sound'tk_Dinotopia.Generic_Sounds.LCarnstep01'
+     FootStepSounds(1)=Sound'tk_Dinotopia.Generic_Sounds.LCarnstep02'
+     MeleeDamage=200
+     HP=1200
+     bOverlayFix=True
+     bHerbivore=False
+     GroundShakeStrength=2.800000
+     HitSound(0)=Sound'tk_Dinotopia.Acro_Sounds.Acrogrowl01'
+     HitSound(1)=Sound'tk_Dinotopia.Acro_Sounds.Acrogrowl02'
+     HitSound(2)=Sound'tk_Dinotopia.Acro_Sounds.Acrogrowl01'
+     HitSound(3)=Sound'tk_Dinotopia.Acro_Sounds.Acrogrowl02'
+     ChallengeSound(0)=Sound'tk_Dinotopia.Spino_Sounds.SpinoLongRoar01'
+     ChallengeSound(1)=Sound'tk_Dinotopia.Spino_Sounds.SpinoRoar01'
+     ChallengeSound(2)=Sound'tk_Dinotopia.Spino_Sounds.SpinoLongRoar01'
+     ChallengeSound(3)=Sound'tk_Dinotopia.Spino_Sounds.SpinoRoar02'
+     MeleeRange=260.000000
+     GroundSpeed=650.000000
+     Mesh=SkeletalMesh'tk_Dinotopia.Spino_Mesh'
+     PrePivot=(Z=72.000000)
+     Skins(0)=FinalBlend'tk_Dinotopia.Spino_Skins.Spino_Female_FB'
+     Mass=2000.000000
+}

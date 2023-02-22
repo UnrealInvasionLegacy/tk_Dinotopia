@@ -1,0 +1,36 @@
+Class M_Trex extends Dinosaur;
+
+defaultproperties
+{
+     FemaleSkin=FinalBlend'tk_Dinotopia.Trex_Skins.Trex_Female_FB'
+     MaleSkin=FinalBlend'tk_Dinotopia.Trex_Skins.Trex_Male_FB'
+     FemaleZombieSkin=FinalBlend'tk_Dinotopia.Trex_Skins.Trex_Female_Zombie_FB'
+     MaleZombieSkin=FinalBlend'tk_Dinotopia.Trex_Skins.Trex_Male_Zombie_FB'
+     RoarSounds(0)=Sound'tk_Dinotopia.Trex_Sounds.TrexRoar09'
+     RoarSounds(1)=Sound'tk_Dinotopia.Trex_Sounds.TrexRoar01'
+     CallSounds(0)=Sound'tk_Dinotopia.Trex_Sounds.TrexGrowl01'
+     CallSounds(1)=Sound'tk_Dinotopia.Trex_Sounds.TrexGrowl03'
+     MeleeAttackSounds(0)=Sound'tk_Dinotopia.Acro_Sounds.Acrogrowl01'
+     MeleeAttackSounds(1)=Sound'tk_Dinotopia.Acro_Sounds.Acrogrowl02'
+     FootStepSounds(0)=Sound'tk_Dinotopia.Generic_Sounds.LCarnstep01'
+     FootStepSounds(1)=Sound'tk_Dinotopia.Generic_Sounds.LCarnstep02'
+     MeleeDamage=300
+     HP=1500
+     bOverlayFix=True
+     bHerbivore=False
+     GroundShakeStrength=3.000000
+     HitSound(0)=Sound'tk_Dinotopia.Acro_Sounds.Acrogrowl01'
+     HitSound(1)=Sound'tk_Dinotopia.Acro_Sounds.Acrogrowl02'
+     HitSound(2)=Sound'tk_Dinotopia.Acro_Sounds.Acrogrowl01'
+     HitSound(3)=Sound'tk_Dinotopia.Acro_Sounds.Acrogrowl02'
+     ChallengeSound(0)=Sound'tk_Dinotopia.Trex_Sounds.TrexGrowl02'
+     ChallengeSound(1)=Sound'tk_Dinotopia.Trex_Sounds.TrexGrowl03'
+     ChallengeSound(2)=Sound'tk_Dinotopia.Trex_Sounds.TrexRoar01'
+     ChallengeSound(3)=Sound'tk_Dinotopia.Trex_Sounds.TrexRoar09'
+     MeleeRange=260.000000
+     GroundSpeed=650.000000
+     Mesh=SkeletalMesh'tk_Dinotopia.Trex_Mesh'
+     PrePivot=(Z=20.000000)
+     Skins(0)=FinalBlend'tk_Dinotopia.Trex_Skins.Trex_Female_FB'
+     Mass=2000.000000
+}

@@ -1,0 +1,39 @@
+Class M_Kentro extends Dinosaur;
+
+defaultproperties
+{
+     MeleeAnims(1)="Melee01"
+     TailSwipeAnims(0)="Melee02"
+     TailSwipeAnims(1)="Melee02"
+     TailAttackBoneName="'"
+     FemaleSkin=Texture'tk_Dinotopia.Kentro_Skins.Kentro_Female'
+     MaleSkin=Texture'tk_Dinotopia.Kentro_Skins.Kentro_Male'
+     FemaleZombieSkin=Texture'tk_Dinotopia.Kentro_Skins.Kentro_Female'
+     MaleZombieSkin=Texture'tk_Dinotopia.Kentro_Skins.Kentro_Male'
+     RoarSounds(0)=Sound'tk_Dinotopia.Kentro_Sounds.kentRoar01'
+     RoarSounds(1)=Sound'tk_Dinotopia.Kentro_Sounds.kentRoar01'
+     CallSounds(0)=Sound'tk_Dinotopia.Kentro_Sounds.KentCall01'
+     CallSounds(1)=Sound'tk_Dinotopia.Kentro_Sounds.KentCall02'
+     MeleeAttackSounds(0)=Sound'tk_Dinotopia.Generic_Sounds.Herbgrowl02'
+     MeleeAttackSounds(1)=Sound'tk_Dinotopia.Generic_Sounds.Herbgrowl03'
+     FootStepSounds(0)=Sound'tk_Dinotopia.Generic_Sounds.Medstep01'
+     FootStepSounds(1)=Sound'tk_Dinotopia.Generic_Sounds.Medstep03'
+     TailBoneRadius=175
+     MeleeDamage=40
+     TailDamage=400
+     HP=900
+     bHasTailAttack=True
+     HitSound(0)=Sound'tk_Dinotopia.Kentro_Sounds.KentCall02'
+     HitSound(1)=Sound'tk_Dinotopia.Kentro_Sounds.KentCall02'
+     HitSound(2)=Sound'tk_Dinotopia.Kentro_Sounds.KentCall02'
+     HitSound(3)=Sound'tk_Dinotopia.Kentro_Sounds.KentCall02'
+     ChallengeSound(0)=Sound'tk_Dinotopia.Kentro_Sounds.KentCall01'
+     ChallengeSound(1)=Sound'tk_Dinotopia.Kentro_Sounds.KentCall02'
+     ChallengeSound(2)=Sound'tk_Dinotopia.Kentro_Sounds.KentCall03'
+     ChallengeSound(3)=Sound'tk_Dinotopia.Kentro_Sounds.kentRoar01'
+     GroundSpeed=280.000000
+     Mesh=SkeletalMesh'tk_Dinotopia.Kentro_Mesh'
+     PrePivot=(Z=-56.000000)
+     Skins(0)=Texture'tk_Dinotopia.Kentro_Skins.Kentro_Female'
+     Mass=1000.000000
+}

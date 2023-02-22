@@ -1,0 +1,36 @@
+Class M_Steg extends Dinosaur;
+
+defaultproperties
+{
+     MeleeAnims(1)="Melee01"
+     TailSwipeAnims(0)="Melee02"
+     TailSwipeAnims(1)="Melee02"
+     TailAttackBoneName="'"
+     FemaleSkin=Texture'tk_Dinotopia.Steg_Skins.Steg_Female'
+     MaleSkin=Texture'tk_Dinotopia.Steg_Skins.Steg_Male'
+     FemaleZombieSkin=Texture'tk_Dinotopia.Steg_Skins.Steg_Female'
+     MaleZombieSkin=Texture'tk_Dinotopia.Steg_Skins.Steg_Male'
+     RoarSounds(0)=Sound'tk_Dinotopia.Stego_Sounds.Stegroar01'
+     RoarSounds(1)=Sound'tk_Dinotopia.Stego_Sounds.Stegroar01'
+     CallSounds(0)=Sound'tk_Dinotopia.Stego_Sounds.Stegcall01'
+     CallSounds(1)=Sound'tk_Dinotopia.Stego_Sounds.Stegcall01'
+     MeleeAttackSounds(0)=Sound'tk_Dinotopia.Generic_Sounds.Herbgrowl02'
+     MeleeAttackSounds(1)=Sound'tk_Dinotopia.Generic_Sounds.Herbgrowl03'
+     FootStepSounds(0)=Sound'tk_Dinotopia.Generic_Sounds.Medstep01'
+     FootStepSounds(1)=Sound'tk_Dinotopia.Generic_Sounds.Medstep03'
+     TailBoneRadius=175
+     MeleeDamage=40
+     TailDamage=600
+     HP=1000
+     bHasTailAttack=True
+     ChallengeSound(0)=Sound'tk_Dinotopia.Stego_Sounds.Stegchlng'
+     ChallengeSound(1)=Sound'tk_Dinotopia.Stego_Sounds.Stegroar01'
+     ChallengeSound(2)=Sound'tk_Dinotopia.Stego_Sounds.Stegchlng'
+     ChallengeSound(3)=Sound'tk_Dinotopia.Stego_Sounds.Stegroar01'
+     MeleeRange=120.000000
+     GroundSpeed=260.000000
+     Mesh=SkeletalMesh'tk_Dinotopia.Steg_Mesh'
+     PrePivot=(Z=-28.000000)
+     Skins(0)=Texture'tk_Dinotopia.Steg_Skins.Steg_Female'
+     Mass=1000.000000
+}
